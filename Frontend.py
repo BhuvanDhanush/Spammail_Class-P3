@@ -80,9 +80,13 @@ def main():
     st.markdown('<p class="subheader">This is a Machine Learning application to classify spam and ham emails.</p>', unsafe_allow_html=True)
 
     # Input field for email text
-    user_input = st.text_area("Enter an Email to classify", height=150, key="email_input", help="Type the email text here.", max_chars=1000, 
-                               placeholder="Type your email content here...", 
-                               style="border: 2px solid #FFCC00; border-radius: 8px; background-color: #2C2C2C; color: #E0E0E0;")
+    user_input = st.text_area(
+    "Enter an Email to classify",
+    height=150,
+    key="email_input",
+    help="Type the email text here.",
+    max_chars=1000
+)
 
     # Button to trigger classification
     if st.button("Classify", key="classify_button", help="Click to classify the email as spam or ham"):
