@@ -40,11 +40,11 @@ def apply_custom_css():
             color: black;  /* Text inside the text area will be black */
         }
         .text-area:focus {
-            border-color: #28A745;  /* Focus border color */
+            border-color: #FFCC00;  /* Focus border color */
             outline: none;
         }
         .button {
-            background-color: #28A745;
+            background-color: #FFCC00;
             color: black;
             border: none;
             padding: 12px 20px;
