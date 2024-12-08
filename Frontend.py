@@ -11,7 +11,7 @@ def apply_custom_css():
         """
         <style>
         body {
-            background-color: #121212;  /* Dark background */
+            background-color: #FFFFFF;
             font-family: 'Arial', sans-serif;
             color: #000000;  /* Black text */
         }
