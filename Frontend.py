@@ -81,12 +81,11 @@ def main():
 
     # Input field for email text
     user_input = st.text_area(
-    "Enter an Email to classify",
-    height=150,
-    key="email_input",
-    help="Type the email text here.",
-    max_chars=1000
-)
+        "Enter an Email to classify",
+        height=150,
+        key="email_input",
+        help="Type the email text here."
+    )
 
     # Button to trigger classification
     if st.button("Classify", key="classify_button", help="Click to classify the email as spam or ham"):
@@ -103,7 +102,7 @@ def main():
             st.warning("Please enter an email to classify", icon="❗")
     
     # Footer information
-    st.markdown('<p class="footer">Made with by R Bhuvan Dhanush</p>', unsafe_allow_html=True)
+    st.markdown('<p class="footer">Made with ❤️ by R Bhuvan Dhanush</p>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
