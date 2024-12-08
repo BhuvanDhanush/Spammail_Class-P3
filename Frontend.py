@@ -42,7 +42,7 @@ def apply_custom_css():
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow effect for text area */
         }
         .text-area:focus {
-            border-color: #28A745;  /* Green focus border */
+            border-color: #FF0000;  /* Green focus border */
             outline: none;
         }
         .button {
@@ -109,7 +109,7 @@ def main():
             st.warning("Please enter an email to classify", icon="❗")
     
     # Footer information
-    st.markdown('<p class="footer">Made with ❤️ by R Bhuvan Dhanush</p>', unsafe_allow_html=True)
+    st.markdown('<p class="footer">Made by R Bhuvan Dhanush</p>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
