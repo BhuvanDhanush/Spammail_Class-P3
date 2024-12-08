@@ -24,7 +24,7 @@ def apply_custom_css():
         }
         .subheader {
             font-size: 1.5em;
-            color: #FFCC00;
+            color: #28A745;
             text-align: center;
             margin-top: 20px;
         }
@@ -40,11 +40,11 @@ def apply_custom_css():
             color: black;  /* Text inside the text area will be black */
         }
         .text-area:focus {
-            border-color: #FF9900;  /* Focus border color */
+            border-color: #28A745;  /* Focus border color */
             outline: none;
         }
         .button {
-            background-color: #FFCC00;
+            background-color: #28A745;
             color: black;
             border: none;
             padding: 12px 20px;
