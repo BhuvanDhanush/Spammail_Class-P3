@@ -17,7 +17,7 @@ def apply_custom_css():
         }
         .title {
             font-size: 3em;
-            color: #28A745;  /* Green text */
+            color: #000000;  /* Green text */
             text-align: center;
             font-weight: bold;
             margin-top: 40px;
@@ -25,7 +25,7 @@ def apply_custom_css():
         }
         .subheader {
             font-size: 1.5em;
-            color: #28A745;  /* Green text */
+            color: #FF0000;  /* Green text */
             text-align: center;
             margin-top: 20px;
         }
