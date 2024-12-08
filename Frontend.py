@@ -13,18 +13,18 @@ def apply_custom_css():
         body {
             background-color: #121212;  /* Dark background */
             font-family: 'Arial', sans-serif;
-            color: black;  /* Default text color set to black */
+            color: #000000;  /* Black text */
         }
         .title {
             font-size: 3em;
-            color: #28A745;
+            color: #28A745;  /* Green text */
             text-align: center;
             font-weight: bold;
             margin-top: 40px;
         }
         .subheader {
             font-size: 1.5em;
-            color: #28A745;
+            color: #28A745;  /* Green text */
             text-align: center;
             margin-top: 20px;
         }
@@ -35,16 +35,16 @@ def apply_custom_css():
             font-size: 1em;
             margin-top: 20px;
             height: 200px;
-            border: 2px solid #FFCC00;  /* Border color */
+            border: 2px solid #28A745;  /* Green border */
             background-color: #2C2C2C;  /* Darker background for text area */
-            color: black;  /* Text inside the text area will be black */
+            color: #000000;  /* Black text */
         }
         .text-area:focus {
-            border-color: #FFCC00;  /* Focus border color */
+            border-color: #28A745;  /* Green focus border */
             outline: none;
         }
         .button {
-            background-color: #FFCC00;
+            background-color: #28A745;  /* Green button */
             color: black;
             border: none;
             padding: 12px 20px;
@@ -55,13 +55,12 @@ def apply_custom_css():
             margin-top: 20px;
         }
         .button:hover {
-            background-color: #FF9900;
+            background-color: #218838;  /* Darker green on hover */
         }
         .result {
             font-size: 1.2em;
             font-weight: bold;
             margin-top: 30px;
-            color: green;  /* Make the result text green */
         }
         .footer {
             text-align: center;
