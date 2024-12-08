@@ -96,14 +96,14 @@ def main():
             result = model.predict(vec)
             
             if result[0] == 0:
-                st.success('This is a Ham message!', icon="✅")
+                st.success('This is a Ham message!', icon="✅💕👌")
             else:
-                st.error("This is a Spam email", icon="⚠️")
+                st.error("This is a Spam email", icon="❌⚠️😢")
         else:
             st.warning("Please enter an email to classify", icon="❗")
     
     # Footer information
-    st.markdown('<p class="footer">Made with ❤️ by Your Name</p>', unsafe_allow_html=True)
+    st.markdown('<p class="footer">Made with by R Bhuvan Dhanush</p>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
