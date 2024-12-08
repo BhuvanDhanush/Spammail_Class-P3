@@ -96,9 +96,9 @@ def main():
             result = model.predict(vec)
             
             if result[0] == 0:
-                st.success('This is a Ham message!', icon="✅💕👌")
+                st.success('This is a Ham message!', icon="✅")
             else:
-                st.error("This is a Spam email", icon="❌⚠️😢")
+                st.error("This is a Spam email", icon="❌")
         else:
             st.warning("Please enter an email to classify", icon="❗")
     
