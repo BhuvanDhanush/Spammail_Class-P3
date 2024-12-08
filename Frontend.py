@@ -5,7 +5,7 @@ import pickle
 model = pickle.load(open('spam123.pkl', 'rb'))
 cv = pickle.load(open('vec123.pkl', 'rb'))
 
-# Function to apply custom CSS styles
+# Function to apply custom CSS styles with shadow effects
 def apply_custom_css():
     st.markdown(
         """
@@ -17,14 +17,15 @@ def apply_custom_css():
         }
         .title {
             font-size: 3em;
-            color: #000000;  /* Green text */
+            color: #28A745;  /* Green text */
             text-align: center;
             font-weight: bold;
             margin-top: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);  /* Shadow effect for title */
         }
         .subheader {
             font-size: 1.5em;
-            color: #000000;  /* Green text */
+            color: #28A745;  /* Green text */
             text-align: center;
             margin-top: 20px;
         }
@@ -38,9 +39,10 @@ def apply_custom_css():
             border: 2px solid #28A745;  /* Green border */
             background-color: #2C2C2C;  /* Darker background for text area */
             color: #000000;  /* Black text */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow effect for text area */
         }
         .text-area:focus {
-            border-color: #000000;  /* Green focus border */
+            border-color: #28A745;  /* Green focus border */
             outline: none;
         }
         .button {
@@ -53,14 +55,19 @@ def apply_custom_css():
             cursor: pointer;
             border-radius: 5px;
             margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Shadow effect for button */
         }
         .button:hover {
             background-color: #218838;  /* Darker green on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);  /* Darker shadow on hover */
         }
         .result {
             font-size: 1.2em;
             font-weight: bold;
             margin-top: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow effect for result */
+            padding: 10px;
+            background-color: #1F1F1F;  /* Dark background for result */
         }
         .footer {
             text-align: center;
