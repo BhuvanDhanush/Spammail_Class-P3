@@ -17,7 +17,7 @@ def apply_custom_css():
         }
         .title {
             font-size: 3em;
-            color: #FFFFFF;  
+            color: #00000;  
             text-align: center;
             font-weight: bold;
             margin-top: 40px;
