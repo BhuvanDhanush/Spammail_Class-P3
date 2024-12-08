@@ -11,7 +11,7 @@ def apply_custom_css():
         """
         <style>
         body {
-            background-color: #121212;
+            background-color: #121212;  /* Dark background */
             font-family: 'Arial', sans-serif;
             color: #E0E0E0;
         }
@@ -35,12 +35,12 @@ def apply_custom_css():
             font-size: 1em;
             margin-top: 20px;
             height: 200px;
-            border: 2px solid #333;
-            background-color: #2C2C2C;
+            border: 2px solid #FFCC00;  /* Border color */
+            background-color: #2C2C2C;  /* Darker background for text area */
             color: #E0E0E0;
         }
         .text-area:focus {
-            border-color: #FFCC00;
+            border-color: #FF9900;  /* Focus border color */
             outline: none;
         }
         .button {
@@ -80,8 +80,10 @@ def main():
     st.markdown('<p class="subheader">This is a Machine Learning application to classify spam and ham emails.</p>', unsafe_allow_html=True)
 
     # Input field for email text
-    user_input = st.text_area("Enter an Email to classify", height=150, key="email_input", help="Type the email text here.", max_chars=1000)
-    
+    user_input = st.text_area("Enter an Email to classify", height=150, key="email_input", help="Type the email text here.", max_chars=1000, 
+                               placeholder="Type your email content here...", 
+                               style="border: 2px solid #FFCC00; border-radius: 8px; background-color: #2C2C2C; color: #E0E0E0;")
+
     # Button to trigger classification
     if st.button("Classify", key="classify_button", help="Click to classify the email as spam or ham"):
         if user_input:
