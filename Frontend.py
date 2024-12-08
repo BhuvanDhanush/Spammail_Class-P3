@@ -13,7 +13,7 @@ def apply_custom_css():
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
         
         body {
-            background: linear-gradient(45deg, #121212, #1e1e1e);
+            background-color: #121212;  /* Solid dark background */
             font-family: 'Poppins', sans-serif;
             color: #E0E0E0;
             margin: 0;
