@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 model = pickle.load(open('spam123.pkl','rb'))
-cv = pickle.load(open(r'vec123.pkl','rb'))
+cv = pickle.load(open('vec123.pkl','rb'))
 
 def main():
     st.title("Email Spam Classificatioln Application")
