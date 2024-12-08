@@ -16,7 +16,7 @@ def main():
             vec=cv.transform(data).toarray()
             result=model.predict(vec)
             if result[0]==0:
-                st.success('This is a success message!', icon="✅")
+                st.success('This is a Ham message!', icon="✅")
             else:
                 st.error("This a Spam email")
         else:
