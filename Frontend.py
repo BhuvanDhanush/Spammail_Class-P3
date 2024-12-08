@@ -13,7 +13,7 @@ def apply_custom_css():
         body {
             background-color: #121212;  /* Dark background */
             font-family: 'Arial', sans-serif;
-            color: #E0E0E0;
+            color: black;  /* Default text color set to black */
         }
         .title {
             font-size: 3em;
@@ -37,7 +37,7 @@ def apply_custom_css():
             height: 200px;
             border: 2px solid #FFCC00;  /* Border color */
             background-color: #2C2C2C;  /* Darker background for text area */
-            color: #E0E0E0;
+            color: black;  /* Text inside the text area will be black */
         }
         .text-area:focus {
             border-color: #FF9900;  /* Focus border color */
@@ -61,6 +61,7 @@ def apply_custom_css():
             font-size: 1.2em;
             font-weight: bold;
             margin-top: 30px;
+            color: green;  /* Make the result text green */
         }
         .footer {
             text-align: center;
