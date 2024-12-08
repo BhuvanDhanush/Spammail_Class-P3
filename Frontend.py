@@ -17,14 +17,14 @@ def apply_custom_css():
         }
         .title {
             font-size: 3em;
-            color: #28A745;  /* Green text */
+            color: #000000;  /* Green text */
             text-align: center;
             font-weight: bold;
             margin-top: 40px;
         }
         .subheader {
             font-size: 1.5em;
-            color: #28A745;  /* Green text */
+            color: #000000;  /* Green text */
             text-align: center;
             margin-top: 20px;
         }
@@ -40,7 +40,7 @@ def apply_custom_css():
             color: #000000;  /* Black text */
         }
         .text-area:focus {
-            border-color: #28A745;  /* Green focus border */
+            border-color: #000000;  /* Green focus border */
             outline: none;
         }
         .button {
