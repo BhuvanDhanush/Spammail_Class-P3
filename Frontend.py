@@ -11,9 +11,9 @@ def apply_custom_css():
         """
         <style>
         body {
-            background-color: #FFFFFF;
+            background-color: #D3D3D3;
             font-family: 'Arial', sans-serif;
-            color: #FFFFFF;  /* Black text */
+            color: #D3D3D3;  /* Black text */
         }
         .title {
             font-size: 3em;
