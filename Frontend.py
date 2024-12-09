@@ -25,7 +25,7 @@ def apply_custom_css():
         }
         .subheader {
             font-size: 1.5em;
-            color: #FF0000;  /* Green text */
+            color: #00000;
             text-align: center;
             margin-top: 20px;
         }
